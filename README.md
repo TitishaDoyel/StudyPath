@@ -7,23 +7,50 @@ The project initially started as a command-line application and was later develo
 ## ✨ Features
 
 ### 🌐 Streamlit Web Application
+
 - **User Authentication** – Sign up, log in, and securely manage accounts.
 - **Dashboard** – View learning statistics and performance summaries.
 - **Learning Records** – Add and manage learning activities and quiz scores.
 - **Learning History** – Search, view, and export previous learning records.
 - **Smart Recommendations** – Get suggestions based on learning performance.
 - **Study Planner** – Create, update, and manage study tasks.
-- **Focus Timer** – Use a timer to organise focused study sessions.
+- **Focus Timer** – Organise focused study sessions.
 - **My Profile** – Update personal learning profile details.
 - **Data Persistence** – Store user profiles and learning records using SQLite.
 
 ### 💻 Command-Line Application
+
 The original CLI version includes:
+
 - Record new learning activities.
 - View learning history.
 - Display performance dashboards.
 - Analyse topic-wise progress.
 - Generate smart learning recommendations.
+
+## 📸 Application Screenshots
+
+### Dashboard
+
+![Dashboard](screenshots/dashboard1.png)
+
+![Dashboard - Recent Learning History](screenshots/dashboard2.png)
+
+### Add Learning Record
+
+![Add Learning Record](screenshots/add-record.png)
+
+### Learning History
+
+![Learning History](screenshots/learning-history.png)
+
+### Study Planner
+
+![Study Planner](screenshots/study-planner.png)
+
+### Focus Timer
+
+![Focus Timer](screenshots/focus_timer.png)
 
 ## 📊 Progress Visualization
 
@@ -47,25 +74,35 @@ The project includes a Matplotlib-based chart generator that displays average pe
 ```text
 StudyPath/
 │
-├── app.py                 # Streamlit web application
-├── main.py                # Command-line application
-├── progress_chart.py      # Progress chart generator
-├── study_progress.png     # Sample progress visualization
-├── requirements.txt       # Project dependencies
-├── README.md              # Project documentation
-├── .gitignore             # Files excluded from Git
+├── screenshots/
+│   ├── dashboard1.png
+│   ├── dashboard2.png
+│   ├── add-record.png
+│   ├── learning-history.png
+│   ├── study-planner.png
+│   └── focus_timer.png
 │
-├── progress.csv           # Local learning data (not uploaded)
-├── studypath.db           # Local SQLite database (not uploaded)
-└── .venv/                 # Python virtual environment (not uploaded)
+├── app.py
+├── main.py
+├── progress_chart.py
+├── study_progress.png
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
+
+Local files excluded from GitHub:
+
+- `progress.csv`
+- `studypath.db`
+- `.venv/`
 
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/TitishaDoyel/StudyPath.git
 ```
 
 ### 2. Navigate to the Project Folder
