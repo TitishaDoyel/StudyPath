@@ -32,25 +32,25 @@ The original CLI version includes:
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard1.png)
+![Dashboard](dashboard1.png)
 
-![Dashboard - Recent Learning History](screenshots/dashboard2.png)
+![Dashboard - Recent Learning History](dashboard2.png)
 
 ### Add Learning Record
 
-![Add Learning Record](screenshots/add-record.png)
+![Add Learning Record](add-record.png)
 
 ### Learning History
 
-![Learning History](screenshots/learning-history.png)
+![Learning History](learning-history.png)
 
 ### Study Planner
 
-![Study Planner](screenshots/study-planner.png)
+![Study Planner](study-planner.png)
 
 ### Focus Timer
 
-![Focus Timer](screenshots/focus_timer.png)
+![Focus Timer](focus_timer.png)
 
 ## 📊 Progress Visualization
 
